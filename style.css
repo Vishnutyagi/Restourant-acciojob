@@ -1,0 +1,114 @@
+.main{
+    width: 100%;
+    color: white;
+    display: flex;
+
+}
+.sidebar{
+    width: 20%;
+    background-color: #0C0E10;
+    padding: 5px;
+    position: sticky;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+.content{
+    width: 80%;
+    margin-left: 20%;
+    background-color: #111315;
+}
+.photo>img{
+    height: 200px;
+}
+
+.photo{
+    text-align: center;
+}
+.photo h4{
+    color: white;
+    margin: 0;
+}
+.photo p{
+    color: #FF2424;
+    margin: 0;
+}
+h5{
+    text-align: center;
+}
+.search>input{
+    width: 50%;
+    background-color: #282a2c;
+    color: #585a5c;
+    margin: 0;
+    border: none;
+}
+.content{
+    padding: 10px;
+}
+.search>button{
+    width: 20%;
+    background-color: #FF2424;
+    color: white;
+    border-radius: 5px;
+}
+.search{
+    display: flex;
+    padding: 1%;
+    height: 40px;
+    justify-content: space-around;
+}
+.image{
+    text-align: center;
+    
+}
+.image>img{
+    border-radius: 10px;
+    height: 300px;
+}
+.menu{
+    padding: 10px;
+}
+
+/* .burger{
+    display: grid;
+    justify-content: grid;
+    grid-template-columns: repeat(3,33%);
+}
+.food-item{
+    margin: 10px;
+} */
+.burger {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.burger .food-item {
+    border: 1px solid #0c0b0b;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.burger .food-item img {
+    width: 100%;
+    height: auto;
+}
+
+#order {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#order:hover {
+    background-color: #ff4500;
+}
